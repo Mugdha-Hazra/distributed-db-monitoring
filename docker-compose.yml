@@ -38,3 +38,9 @@ services:
     container_name: redis_exporter
     ports:
       - "9121:9121"
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
